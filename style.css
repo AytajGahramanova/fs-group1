@@ -13,6 +13,63 @@
 
 /* services page start */
 
+
+.head {
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo-link {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 40px;
+    outline: none;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.active {
+    border:  1px solid black;
+    padding: 10px 15px;
+}
+.bg-image {
+    background-image: url("https://themewagon.github.io/SIGHT/assets/images/services.png");
+    height: 38vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    padding-left: 230px;
+    gap: 10px;
+}
+.breadcrumb a {
+    text-decoration: none;
+    color: white;
+}
+.breadcrumb i {
+    color: white;
+}
 /* services page end */
 
 /* portfolio page start */
