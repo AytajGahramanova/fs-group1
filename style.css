@@ -16,10 +16,14 @@
 
 .head {
     background-color: #EAEAEA;
+    padding: 20px 0;   
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
 }
 .logo-link {
     text-decoration: none;
@@ -60,7 +64,7 @@
 .breadcrumb {
     display: flex;
     align-items: center;
-    padding-left: 230px;
+    padding-left: 210px;
     gap: 10px;
 }
 .breadcrumb a {
@@ -69,6 +73,28 @@
 }
 .breadcrumb i {
     color: white;
+}
+.our-main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.our {
+    display: flex;
+    flex-direction: row;
+}
+.our-services {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    gap: 5px;
+}
+.our-services-text-1 {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.our-services-text-2 {
+    color: gray;
 }
 /* services page end */
 
