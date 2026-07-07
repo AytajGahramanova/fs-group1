@@ -1,4 +1,5 @@
-* {
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,18 +15,23 @@
 /* services page start */
 
 
-.head {
+.head
+{
     background-color: #EAEAEA;
-    padding: 20px 0;   
+    padding: 10px 0;
 }
-.wrapper {
+
+.wrapper
+{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo-link {
+
+.logo-link
+{
     text-decoration: none;
     border: 1px solid black;
     color: black;
@@ -34,68 +40,143 @@
     font-weight: 400;
     letter-spacing: 5px;
 }
-.navbar ul {
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul
+{
     display: flex;
     align-items: center;
+    flex-direction: column;
     margin: 0;
-    gap: 40px;
+    gap: 20px;
     outline: none;
 }
-.navbar ul li {
+
+.navbar ul li
+{
     list-style: none;
 }
-.navbar li a {
+
+.navbar li a
+{
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
-.active {
-    border:  1px solid black;
+
+.active:focus
+{
+    border: 1px solid black;
     padding: 10px 15px;
 }
-.bg-image {
+
+.bg-image
+{
     background-image: url("https://themewagon.github.io/SIGHT/assets/images/services.png");
     height: 38vh;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
 }
-.breadcrumb {
+
+.breadcrumb
+{
     display: flex;
     align-items: center;
     padding-left: 210px;
     gap: 10px;
 }
-.breadcrumb a {
+
+.breadcrumb a
+{
     text-decoration: none;
     color: white;
 }
-.breadcrumb i {
+
+.breadcrumb i
+{
     color: white;
 }
-.our-main {
+
+.services
+{
+    background-color: #EDEDED;
+}
+
+.services-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.services-image img
+{
+    width: 300px;
+}
+
+.our-main
+{
     display: flex;
     flex-direction: column;
     gap: 60px;
+    margin-bottom: 30px;
 }
-.our {
+
+.our-text-head
+{
+    margin-left: 60px;
+    font-size: 30px !important;
+    font-weight: 400;
+}
+
+.our-text-head::after
+{
+    content: '';
+    background-color: #4A148C;
+    width: 50px;
+    height: 2px;
+    margin-top: 10px;
+    display: block;
+    margin-left: 90px;
+}
+
+.our
+{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    width: 820px;
+    gap: 40px;
 }
-.our-services {
+
+.our-services
+{
     display: flex;
     flex-direction: column;
     width: 240px;
     gap: 5px;
 }
-.our-services-text-1 {
+
+.our-services-text-1
+{
     font-size: 20px;
     letter-spacing: 5px;
 }
-.our-services-text-2 {
+
+.our-services-text-2
+{
     color: gray;
 }
+
 /* services page end */
 
 /* portfolio page start */
