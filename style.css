@@ -229,10 +229,11 @@ button{
     font-weight: 400;
     letter-spacing: 5px;
 }
+
 .navbar
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -376,53 +377,35 @@ button{
 
 
 /*! responsive design start */
-@media(max-width:992px){
-
-.logo{
-
-font-size:28px;
-
-letter-spacing:5px;
-
-}
-
-.hero h1{
-
-font-size:48px;
-
-letter-spacing:6px;
-
-}
-
-.hero h3{
-
-font-size:20px;
-
-}
-
-.navbar-collapse{
-
-background:rgba(0,0,0,.9);
-
-padding:20px;
-
-margin-top:15px;
-
-}
-
-}
-
-@media (max-width:768px){
-  nav{
-    display: none;
-  }
-    .list{
-        padding: 3%;
+/*Ramazan media start*/
+@media (max-width: 768px)
+{
+    .services-container
+    {
         display: flex;
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .services-image img
+    {
+        width: 300px;
+    }
+
+    .our-main
+    {
+        display: flex;
         justify-content: center;
     }
 
+    .our
+    {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
 }
-
+/*Ramazan media end*/
 /*! responsive design end */
