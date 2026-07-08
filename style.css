@@ -188,6 +188,7 @@
 
 
 /*! responsive design start */
+/*Ramazan media start*/
 @media (max-width: 768px)
 {
     .services-container
@@ -217,8 +218,5 @@
         justify-content: center;
     }
 }
-@media () {
-    
-}
-
+/*Ramazan media end*/
 /*! responsive design end */
