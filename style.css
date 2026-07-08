@@ -40,10 +40,11 @@
     font-weight: 400;
     letter-spacing: 5px;
 }
+
 .navbar
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -187,5 +188,37 @@
 
 
 /*! responsive design start */
+@media (max-width: 768px)
+{
+    .services-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .services-image img
+    {
+        width: 300px;
+    }
+
+    .our-main
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .our
+    {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media () {
+    
+}
 
 /*! responsive design end */
