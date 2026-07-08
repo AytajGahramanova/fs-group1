@@ -6,7 +6,196 @@
 }
 
 /* home start */
+body{
+    font-family: 'Roboto', 'Open-Sans', sans-serif;
+    overflow-x: hidden;
+    color: #313131;
+}
 
+.header{
+
+    width:100%;
+    height:100vh;
+
+    background:url("image/header.png") center center/cover no-repeat;
+
+    position:relative;
+
+}
+
+.header::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.45);
+
+}
+
+.navbar{
+
+    position:relative;
+
+    z-index:10;
+
+    padding-top:45px;
+
+}
+
+.logo{
+
+    color:#fff !important;
+
+    border:1px solid rgba(255,255,255,.8);
+
+    padding:0px 16px;
+
+    font-size:42px;
+
+    letter-spacing:8px;
+
+    font-weight:300;
+
+}
+
+.navbar-nav{
+
+    gap:20px;
+
+}
+
+.nav-link{
+
+    color:white !important;
+
+    letter-spacing:2px;
+
+    font-size:15px;
+
+    padding:14px 25px !important;
+
+}
+
+.nav-link.active{
+
+    border:1px solid rgba(255,255,255,.8);
+
+}
+
+.hero{
+
+    position:relative;
+
+    z-index:10;
+
+    height:85vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+.hero h1{
+
+    font-size:82px;
+
+    font-weight:300;
+
+    letter-spacing:12px;
+
+}
+
+.hero h3{
+
+    margin-top:25px;
+
+    font-size:26px;
+
+    letter-spacing:8px;
+
+    font-weight:300;
+
+}
+.list{
+    display: none;
+}
+
+button{
+    padding: 10px 20px;
+}
+
+
+.service {
+    background: #ededed;
+    position: relative;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.service .section-title {
+    margin-top: 110px;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.black {
+    color: #313131;
+}
+.service .underline {
+    margin-bottom: 75px;
+}
+.underline {
+    height: 2px;
+    width: 50px;
+    margin: 0px auto 60px;
+}
+.purple {
+    background: #4a148c;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.service-img {
+    position: absolute;
+    bottom: 0px;
+}
+.services {
+    margin-bottom: 100px;
+}
+.section-item-title {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.section-item-detail {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: #999;
+    letter-spacing: .39px;
+}
 /* home end */
 
 /* about page start */
