@@ -274,7 +274,7 @@ button
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 !important;
+    padding: 0px !important;
 }
 
 .nav-link.active
@@ -314,7 +314,7 @@ button
 
 .bg-image
 {
-    background-image: url("https://themewagon.github.io/SIGHT/assets/images/services.png");
+    background-image: url("./image/services.png");
     height: 38vh;
     display: flex;
     justify-content: flex-start;
@@ -343,6 +343,7 @@ button
 .services
 {
     background-color: #EDEDED;
+    margin-bottom: 0px !important;
 }
 
 .services-container
@@ -390,7 +391,8 @@ button
 {
     display: flex;
     flex-wrap: wrap;
-    width: 820px;
+    width: 100%;
+    justify-content: space-around;
     gap: 40px;
 }
 
@@ -413,6 +415,52 @@ button
     color: gray;
 }
 
+.testmonials-slider {
+    background-image: url("./image/testimonial.png");
+    height: 65vh;
+    padding-top: 200px;    
+}
+
+.carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: fit-content;
+}
+.carousel-indicators {
+    position: absolute;
+    top: 160px;    
+}
+.testmonials-head {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    bottom: 100px;
+    
+}
+.testmonials-head::after {
+    content: '';
+    background-color: white;
+    width: 50px;
+    height: 2px;
+    margin-left: 8px;
+    position: absolute;
+    bottom: -12px;
+    display: block;
+    transform: translateY(-50%); 
+}
+.carousel-caption{
+    position:  relative;
+    color: white;
+    left: 0;
+}
+.carousel-span {    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
 /* services page end */
 
 /* portfolio page start */
@@ -433,14 +481,21 @@ button
         justify-content: center;
         position: relative;
         z-index: 2;
+        padding-bottom: 150px;
     }
-    .services-image {
-        width: 300px;
+    .services-image{
         position: absolute;
-        top: 0px;
-        z-index: -1;
-        padding: 0 10px;
+        bottom: 0px;
+        z-index: 1;
         opacity: 0.2;
+    }
+    .service-img img {
+        width: 220px;
+        height: auto;
+    }
+    .our-main {
+        position: relative;
+        z-index: 2;
     }
     .our {
         display: flex;
@@ -458,7 +513,7 @@ button
         position: relative;
         z-index: 2;
     }
-    .services-image {
+    .services-image{
         width: 300px;
         position: absolute;
         z-index: -1;
