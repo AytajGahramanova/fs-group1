@@ -285,7 +285,7 @@ button
 
 .nav-link.active:focus
 {
-    border: 1px solid black;
+    border: 1px solid black !important;
 }
 
 .navbar ul
