@@ -315,7 +315,7 @@ button
 .bg-image
 {
     background-image: url("./image/services.png");
-    height: 38vh;
+    height: 38vh ;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -428,7 +428,7 @@ button
 }
 .carousel-indicators {
     position: absolute;
-    top: 160px;    
+    top: 220px;    
 }
 .testmonials-head {
     color: white;
