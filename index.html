@@ -11,166 +11,289 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
- <header class="header">
+<header class="header">
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<a class="navbar-brand logo" href="#">SIGHT</a>
 
-    <nav class="navbar navbar-expand-lg">
+			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+				aria-controls="offcanvasNavbar">
+				<i class="fa-solid fa-bars" style="color: white; font-size: 24px;"></i>
+			</button>
+			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+				aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENYU</h5>
+					<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+						aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link active" href="index.html">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">ABOUT US</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="services.html">SERVICES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
 
-        <div class="container">
-
-            <a class="navbar-brand logo" href="#">SIGHT</a>
-
-            <button class="navbar-toggler"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#menu">
-
-                <span class="navbar-toggler-icon"></span>
-
-            </button>
-
-            <div class="collapse navbar-collapse" id="menu">
-
-                <ul class="navbar-nav ms-auto">
-
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">HOME</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">ABOUT US</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">SERVICES</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-            <!-- Button responsive -->
-   
-    <button class="btn btn-primary list" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
-
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-  
-  </div>
-</div>
-
-    </nav>
-
-    <div class="hero">
-
-        <h1>BEST DIGITAL AGENCY</h1>
-
-        <h3>SINCE 2013</h3>
-
-    </div>
-
-
+	<div class="hero">
+		<h1>BEST DIGITAL AGENCY</h1>
+		<h3>SINCE 2013</h3>
+	</div>
 </header>
 
 
 
   
     <main>
-      <section class="service" id="service">
+	<section class="service" id="service">
 		<div class="container">
 			<div class="_section-wrapper">
-				<h2 class="section-title black">
-					OUR SERVICES
-				</h2> <!-- /.section-title -->
+				<h2 class="section-title-1 black">OUR SERVICES</h2>
 				<div class="underline purple"></div>
+	
 				<div class="row">
-					<div class="">
+					<div class="col-md-4 col-sm-12">
 						<img src="image/service.png" alt="service" class="service-img img-responsive">
 					</div>
-					<div class="col-md-offset-4 col-md-8 col-sm-12 services">
+	
+					<div class="col-md-8 col-sm-12 services">
 						<div class="row">
 							<div class="col-xs-6 col-sm-4">
 								<div class="service-item">
-									<h3 class="section-item-title">
-										FREE DELIVERY
-									</h3>
-									<p class="section-item-detail">
-										The Earth was small, light blue, and so touchingly alone, our home that must be so painful.
-									</p>
-								</div> <!-- /.service-item -->
+									<h3 class="section-item-title">FREE DELIVERY</h3>
+									<p class="section-item-detail">The Earth was small, light blue, and so touchingly alone,
+										our home that must be so painful.</p>
+								</div>
 							</div>
 							<div class="col-xs-6 col-sm-4">
 								<div class="service-item">
-									<h3 class="section-item-title">
-										REFUND MONEY
-									</h3>
-									<p class="section-item-detail">
-										The Earth was small, light blue, and so touchingly alone, our home that must be so painful.
-									</p>
-								</div> <!-- /.service-item -->
+									<h3 class="section-item-title">REFUND MONEY</h3>
+									<p class="section-item-detail">The Earth was small, light blue, and so touchingly alone,
+										our home that must be so painful.</p>
+								</div>
 							</div>
 							<div class="col-xs-6 col-sm-4">
 								<div class="service-item">
-									<h3 class="section-item-title">
-										24/7 support
-									</h3>
-									<p class="section-item-detail">
-										The Earth was small, light blue, and so touchingly alone, our home that must be so painful.
-									</p>
-								</div> <!-- /.service-item -->
+									<h3 class="section-item-title">24/7 support</h3>
+									<p class="section-item-detail">The Earth was small, light blue, and so touchingly alone,
+										our home that must be so painful.</p>
+								</div>
 							</div>
 							<div class="col-xs-6 col-sm-4">
 								<div class="service-item">
-									<h3 class="section-item-title">
-										SUMMER OFFER
-									</h3>
-									<p class="section-item-detail">
-										The Earth was small, light blue, and so touchingly alone, our home that must be so painful.
-									</p>
-								</div> <!-- /.service-item -->
+									<h3 class="section-item-title">SUMMER OFFER</h3>
+									<p class="section-item-detail">The Earth was small, light blue, and so touchingly alone,
+										our home that must be so painful.</p>
+								</div>
 							</div>
 							<div class="col-xs-6 col-sm-4">
 								<div class="service-item">
-									<h3 class="section-item-title">
-										WINTER OFFER
-									</h3>
-									<p class="section-item-detail">
-										The Earth was small, light blue, and so touchingly alone, our home that must be so painful.
-									</p>
-								</div> <!-- /.service-item -->
+									<h3 class="section-item-title">WINTER OFFER</h3>
+									<p class="section-item-detail">The Earth was small, light blue, and so touchingly alone,
+										our home that must be so painful.</p>
+								</div>
 							</div>
 							<div class="col-xs-6 col-sm-4">
 								<div class="service-item">
-									<h3 class="section-item-title">
-										BEST GIFT
-									</h3>
-									<p class="section-item-detail">
-										The Earth was small, light blue, and so touchingly alone, our home that must be so painful.
-									</p>
-								</div> <!-- /.service-item -->
+									<h3 class="section-item-title">BEST GIFT</h3>
+									<p class="section-item-detail">The Earth was small, light blue, and so touchingly alone,
+										our home that must be so painful.</p>
+								</div>
 							</div>
-						</div> <!-- /.row -->
-					</div> <!-- /.col-md-6 -->
-				</div> <!-- /.row -->
-			</div> <!-- /.section-wrapper -->
-		</div> <!-- /.container -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
-      <section></section>
-      <section></section>
+      <section class="twitter-feed purple">
+		<div class="container section-wrapper">
+			<div class="section-title">
+				TWITTER FEED
+			
+			</div>
+			<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+	   <p class="day">20 days ago</p>
+					<p class="feed">
+						We are glad to introduce our first HTML5/CSS3 Template called “PATROS” -http://t.co/mL9rufE7h8 @designscrazed @W3layouts @freshdesignweb
+					</p>
+					<div class="options">
+						<a href="#"><span><i class="fa-solid fa-reply"></i> REPLAY</span></a>
+						<a href="#"><span><i class="fa-brands fa-twitter"></i> RETWEET</span></a>
+						<a href="#"><span><i class="fa-solid fa-heart"></i> FAVORITE</span></a>
+					</div>
+    </div>
+	  <div class="carousel-item">
+	   <p class="day">5 days ago</p>
+					<p class="feed">
+						We are glad to introduce our first HTML5/CSS3 Template called “PATROS” -http://t.co/mL9rufE7h8 @designscrazed @W3layouts @freshdesignweb
+					</p>
+					<div class="options">
+						<a href="#"><span><i class="fa-solid fa-reply"></i> REPLAY</span></a>
+						<a href="#"><span><i class="fa-brands fa-twitter"></i> RETWEET</span></a>
+						<a href="#"><span><i class="fa-solid fa-heart"></i> FAVORITE</span></a>
+					</div>
+    </div>
+    <div class="carousel-item">
+	   <p class="day">12 days ago</p>
+					<p class="feed">
+						We are glad to introduce our first HTML5/CSS3 Template called “PATROS” -http://t.co/mL9rufE7h8 @designscrazed @W3layouts @freshdesignweb
+					</p>
+					<div class="options">
+						<a href="#"><span><i class="fa-solid fa-reply"></i> REPLAY</span></a>
+						<a href="#"><span><i class="fa-brands fa-twitter"></i> RETWEET</span></a>
+						<a href="#"><span><i class="fa-solid fa-heart"></i> FAVORITE</span></a>
+					</div>
+    </div>
+    <div class="carousel-item">
+	   <p class="day">12 days ago</p>
+					<p class="feed">
+						We are glad to introduce our first HTML5/CSS3 Template called “PATROS” -http://t.co/mL9rufE7h8 @designscrazed @W3layouts @freshdesignweb
+					</p>
+					<div class="options">
+						<a href="#"><span><i class="fa-solid fa-reply"></i> REPLAY</span></a>
+						<a href="#"><span><i class="fa-brands fa-twitter"></i> RETWEET</span></a>
+						<a href="#"><span><i class="fa-solid fa-heart"></i> FAVORITE</span></a>
+					</div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </div> 
+	</section>
+
+
+	<section class="portfolio-index">
+		<div class="p-index-title">
+			          PORTFOLIO
+		</div>
+		<div class="p-index-body">
+       <div class="p-index-box">
+	<img src="image/port-1.png" alt="port" class="port-item">
+	<img src="image/plus.png" alt="Effekt PNG" class="ust-png-img">
+<div>
+	
+</div>
+<div class="p-index-name-box">  
+		<div class="portfolio-item-name">
+								Olivera Note <br><small>Fashion</small>
+							</div>
+							<div class="port-heart">
+								<i class="fa-regular fa-heart"></i> 564
+							</div>
+</div>
+  </div>
+			
+			<div class="p-index-box">
+    <img src="image/port-2.png" alt="port" class="port-item">
+	<img src="image/plus.png" alt="Effekt PNG" class="ust-png-img">
+	<div class="p-index-name-box">
+<div class="portfolio-item-name">
+								Shift Magazine
+ <br><small>Photography</small>
+							</div>
+							<div class="port-heart">
+								<i class="fa-regular fa-heart"></i> 564
+							</div>
+	</div>
+	
+			</div>
+			<div class="p-index-box">
+    <img src="image/port-3.png" alt="port" class="port-item">
+	<img src="image/plus.png" alt="Effekt PNG" class="ust-png-img">
+
+	<div class="p-index-name-box">
+	<div class="portfolio-item-name">
+								Camp Pine Tree
+ <br><small>Web Design</small>
+							</div>
+							<div class="port-heart">
+								<i class="fa-regular fa-heart"></i> 564
+							</div>
+	</div>
+
+			</div>
+			<div class="p-index-box">
+    <img src="image/port-4.png" alt="port" class="port-item">
+	<img src="image/plus.png" alt="Effekt PNG" class="ust-png-img">
+
+	<div class="p-index-name-box">
+		<div class="portfolio-item-name">
+								Freeart App Design
+ <br><small>Photography</small>
+							</div>
+							<div class="port-heart">
+								<i class="fa-regular fa-heart"></i> 564
+							</div>
+	</div>
+	
+			</div>
+			<div class="p-index-box">
+				<img src="image/port-5.png" alt="port" class="port-item">
+				<img src="image/plus.png" alt="Effekt PNG" class="ust-png-img">
+
+				<div class="p-index-name-box">
+					<div class="portfolio-item-name">
+								Large Poster Set
+ <br><small>Marketing</small>
+							</div>
+							<div class="port-heart">
+								<i class="fa-regular fa-heart"></i> 564
+							</div>
+				</div>
+				
+
+			</div>
+			<div class="p-index-box">
+				<img src="image/port-6.png" alt="port" class="port-item">
+				<img src="image/plus.png" alt="Effekt PNG" class="ust-png-img">
+				<div class="p-index-name-box">
+<div class="portfolio-item-name">
+							Skilet Album Cover
+ <br><small>Business</small>
+							</div>
+							<div class="port-heart">
+								<i class="fa-regular fa-heart"></i> 564
+							</div>
+
+				</div>
+				
+			</div>
+	
+	
+	
+	
+		</div>
+	
+	
+	</section>
     </main>
 
     <footer></footer>
