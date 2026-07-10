@@ -5,14 +5,13 @@
 }
 
 /* home start */
-body {
+/* body {
     font-family: 'Roboto', 'Open-Sans', sans-serif;
     overflow-x: hidden;
     color: #313131;
     margin: 0;
     padding: 0;
-}
-
+} */
 .header {
     width: 100%;
     height: 100vh;
