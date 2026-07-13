@@ -285,7 +285,7 @@ button
 
 .nav-link.active:focus
 {
-    border: 1px solid black;
+    border: 1px solid black !important;
 }
 
 .navbar ul
@@ -415,31 +415,39 @@ button
     color: gray;
 }
 
-.testmonials-slider {
+.testmonials-slider
+{
     background-image: url("./image/testimonial.png");
     height: 65vh;
-    padding-top: 200px;    
+    padding-top: 200px;
 }
 
-.carousel {
+.carousel
+{
     max-width: 1200px;
     margin: 0 auto;
     height: fit-content;
 }
-.carousel-indicators {
+
+.carousel-indicators
+{
     position: absolute;
-    top: 160px;    
+    top: 220px;
 }
-.testmonials-head {
+
+.testmonials-head
+{
     color: white;
     display: flex;
     justify-content: center;
     position: relative;
     left: 0;
     bottom: 100px;
-    
+
 }
-.testmonials-head::after {
+
+.testmonials-head::after
+{
     content: '';
     background-color: white;
     width: 50px;
@@ -448,19 +456,241 @@ button
     position: absolute;
     bottom: -12px;
     display: block;
-    transform: translateY(-50%); 
+    transform: translateY(-50%);
 }
-.carousel-caption{
-    position:  relative;
+
+.carousel-caption
+{
+    position: relative;
     color: white;
     left: 0;
 }
-.carousel-span {    
+
+.carousel-span
+{
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding-top: 20px;
 }
+
+.price-table
+{
+    min-height: 100vh;
+    background-color: #EDEDED;
+}
+
+.price-main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.price-table h2
+{
+    position: relative;
+    font-size: 30px !important;
+    padding-bottom: 60px;
+}
+
+.price-table h2::after
+{
+    content: '';
+    background-color: blueviolet;
+    width: 45px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    top: 40px;
+    margin-left: 75px;
+}
+
+.price-table table
+{
+    width: 65%;
+    background-color: white;
+}
+
+.price-table thead th
+{
+    font-size: 25px;
+    font-weight: 300;
+
+    background-color: #F9F9F9;
+    padding: 20px 0 10px 15px;
+}
+
+.price-table p
+{
+    font-weight: 200;
+    font-size: large;
+}
+
+.price-table td
+{
+    padding: 20px 0 20px 15px;
+    border: 1px solid gainsboro;
+    color: gray;
+    font-size: 13px;
+}
+
+.price-table td:first-child
+{
+    border-right: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.price-table td:nth-child(2),
+.price-table td:nth-child(3)
+{
+    border-right: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.price-table td:last-child
+{
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.price-table td button
+{
+    padding: 5px 8px;
+    color: gray;
+    background-color: white;
+    border: 1px solid gainsboro;
+    font-size: 15px;
+}
+
+.price-table thead th:hover
+{
+    color: blueviolet;
+}
+
+.price-table td button:hover
+{
+    color: white;
+    background-color: blueviolet;
+}
+
+.card-wrapper
+{
+    height: 50vh;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 100%;
+}
+
+footer
+{
+    background-color: #EDEDED;
+}
+
+.footer-text
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-icon
+{
+    display: flex;
+    gap: 4px;
+}
+
+.footer-icon i
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text p
+{
+    color: gray;
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-text span
+{
+    color: #1976D2;
+    font-size: 14px;
+}
+
+.fa-facebook-f
+{
+    background-color: #1976D2;
+    color: #EDEDED;
+
+}
+
+.fa-facebook-f:hover
+{
+    background-color: #EDEDED;
+    border: 1px solid #1976D2;
+    color: #1976D2;
+
+}
+
+.fa-twitter
+{
+    background-color: #2CAAE1;
+    color: #EDEDED;
+
+}
+
+.fa-twitter:hover
+{
+    background-color: #EDEDED;
+    border: 1px solid #2CAAE1;
+    color: #2CAAE1;
+
+}
+
+.fa-google-plus-g
+{
+    background-color: #C62828;
+    color: #EDEDED;
+}
+
+.fa-google-plus-g:hover
+{
+    background-color: #EDEDED;
+    border: 1px solid #C62828;
+    color: #C62828;
+}
+
+.fa-wifi
+{
+    background-color: #FF8F00;
+    color: #EDEDED;
+}
+
+.fa-wifi:hover
+{
+    background-color: #EDEDED;
+    border: 1px solid #FF8F00;
+    color: #FF8F00;
+}
+
+/*.carousel-img {
+
+}*/
 /* services page end */
 
 /* portfolio page start */
@@ -473,9 +703,35 @@ button
 
 /*! responsive design start */
 /*Ramazan media start*/
-@media (max-width:992px) {
-    
-    .services-container {
+@media (max-width:1200px)
+{
+    .footer-text
+    {
+        width: 100%;
+        padding: 20px;
+    }
+        .card-wrapper
+    {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .cards
+    {
+        flex-wrap: wrap;
+    }
+
+    .cards img
+    {
+        width: 200px;
+    }
+}
+
+@media (max-width:992px)
+{
+
+    .services-container
+    {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -483,37 +739,71 @@ button
         z-index: 2;
         padding-bottom: 150px;
     }
-    .services-image{
+
+    .services-image
+    {
         position: absolute;
         bottom: 0px;
         z-index: 1;
         opacity: 0.2;
     }
-    .service-img img {
+
+    .service-img img
+    {
         width: 220px;
         height: auto;
     }
-    .our-main {
+
+    .our-main
+    {
         position: relative;
         z-index: 2;
     }
-    .our {
+
+    .our
+    {
         display: flex;
         justify-content: center;
         width: 100%;
     }
 
+    .footer-text
+    {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .card-wrapper
+    {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .cards
+    {
+        flex-wrap: wrap;
+    }
+
+    .cards img
+    {
+        width: 200px;
+    }
+
 }
+
 @media (max-width: 768px)
-{       
-    .services-container {
+{
+    .services-container
+    {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         position: relative;
         z-index: 2;
     }
-    .services-image{
+
+    .services-image
+    {
         width: 300px;
         position: absolute;
         z-index: -1;
@@ -521,17 +811,63 @@ button
         padding: 0 10px;
         opacity: 0.2;
     }
-    .our {
+
+    .our
+    {
         display: flex;
         justify-content: center;
         width: 100%;
     }
+
     .breadcrumb
     {
         display: flex;
         align-items: center;
         padding-left: 50px;
         gap: 10px;
+    }
+
+    .footer-text
+    {
+        width: 100%;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-wrapper
+    {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .cards
+    {
+        flex-wrap: wrap;
+    }
+
+    .cards img
+    {
+        width: 200px;
+    }
+}
+
+@media (max-width:576px)
+{
+    .card-wrapper
+    {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .cards
+    {
+        flex-wrap: wrap;
+    }
+
+    .cards img
+    {
+        width: 100%;
     }
 }
 
