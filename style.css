@@ -239,6 +239,7 @@ body {
     margin: 0 auto; 
     border-radius: 2px;
     background:#4a148c ;
+    
 }
 .sg-portfolio-flex-container {
     display: flex;
@@ -250,7 +251,8 @@ body {
 }
 .sg-portfolio-item-card {
     position: relative; 
-    overflow: hidden;       
+    overflow: hidden;      
+    object-fit: cover;
 }
 .sg-portfolio-item-card .sg-portfolio-thumbnail {
     width: 100%;
