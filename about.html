@@ -4,17 +4,335 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/js/all.min.js"
+      integrity="sha512-4dRoOomu6cU3VKBvnI1kykyZOqeQMAzo0KDfzQmd99ls4/uckwtxwHUedg/Z7n4lB4mwwWL3dcZW9ZlI3j7dAA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <link rel="stylesheet" href="style1.css" />
   </head>
 
   <body>
-    <h1>burda</h1>
+    <header class="head">
+      <nav class="navbar navbar-expand-lg wrapper">
+        <a class="logo-link" href="#">SIGHT</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">HOME</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">ABOUT US</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="./services.html">SERVICES</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="portfolio.html">PORTFOLIO</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="backGraundImg">
+        <div class="breadcrumb">
+          <a href="index.html">HOME</a>
+          <a href="#"> > ABOUT US</a>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div class="container">
+        <div class="containerOnce">
+          <div>
+            <h2
+              style="
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+                font-weight: 400;
+                margin-top: 116px;
+              "
+            >
+              ABOUT US
+            </h2>
+
+            <div class="underlinePurple"></div>
+          </div>
+
+          <div class="parent">
+            <div class="div1">
+              <img src="./image/about-1.png" alt="hacker" />
+            </div>
+            <div class="div2">
+              <img src="image/about-2.png" alt="menzere" />
+            </div>
+            <div class="div3">
+              <p>
+                The Earth was small, light blue, and so touchingly alone, our
+                home that must be defended like a holy relic. The Earth was
+                absolutely round. I believe I never knew what saw for the first
+                time how beautiful our planet is. Mankind, let us preserve and
+                increase this beauty, and not destroy it!Houston.landed.We are
+                all connected; To each other, biologically. To the earth,
+                chemically. To the rest of the universe atomically. The Earth
+                was absolutely round. I believe I never knew what saw for the
+                first time how beautiful our planet is.
+              </p>
+            </div>
+            <div class="div4">
+              <h3>WE CARE</h3>
+              <span
+                >The Earth was small, light blue, and so touchingly alone, our
+                home that must be defended like a holy relic. The Earth was
+                absolutely round.</span
+              >
+            </div>
+            <div class="div5">
+              <h3>WE DELIVER</h3>
+              <span
+                >The Earth was small, light blue, and so touchingly alone, our
+                home that must be defended like a holy relic. The Earth was
+                absolutely round.</span
+              >
+            </div>
+            <div class="div6">
+              <h3>WE'RE CREATIVE</h3>
+              <span
+                >The Earth was small, light blue, and so touchingly alone, our
+                home that must be defended like a holy r elic. The Earth was
+                absolutely round.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="containerSecond">
+        <div>
+          <div>
+            <h2
+              style="
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+                font-weight: 400;
+                padding: 200px;
+                padding-bottom: 10px;
+              "
+            >
+              OUR TEAM
+            </h2>
+          </div>
+          <div class="underlinePurple2"></div>
+        </div>
+        <div class="container">
+          <div class="portfolio">
+            <div class="pageWorker">
+              <div><img src="./image/team-1.png" alt="Worker" /></div>
+              <div class="workerAbout">
+                <p>David Martin</p>
+                <span>FOUNDER</span>
+              </div>
+            </div>
+
+            <div class="pageWorker">
+              <div><img src="./image/team-2.png" alt="Worker" /></div>
+              <div class="workerAbout">
+                <p>Reena Scot</p>
+                <span>FOUNDER</span>
+              </div>
+            </div>
+            <div class="pageWorker">
+              <div><img src="./image/team-3.png" alt="Worker" /></div>
+              <div class="workerAbout">
+                <p>Poul Smith</p>
+                <span>FOUNDER</span>
+              </div>
+            </div>
+            <div class="pageWorker">
+              <div><img src="./image/team-4.png" alt="Worker" /></div>
+              <div class="workerAbout">
+                <p>Jeneflr White</p>
+                <span>FOUNDER</span>
+              </div>
+            </div>
+            <div class="pageWorker">
+              <div><img src="./image/team-5.png" alt="Worker" /></div>
+              <div class="workerAbout">
+                <div class="workerAbout">
+                  <p>David Martin</p>
+                  <span>FOUNDER</span>
+                </div>
+              </div>
+            </div>
+            <div class="pageWorker">
+              <div><img src="./image/team-6.png" alt="Worker" /></div>
+              <div class="workerAbout">
+                <p>Reena Scot</p>
+                <span>FOUNDER</span>
+              </div>
+            </div>
+            <div class="pageWorker">
+              <div><img src="./image/team-7.png" alt="Worker" /></div>
+              <div class="workerAbout">
+                <p>Paul Smith</p>
+                <span>FOUNDER</span>
+              </div>
+            </div>
+            <div class="pageWorker">
+              <div><img src="./image/team-8.png" alt="Worker" /></div>
+              <div class="workerAbout">
+                <p>Jeneflr White</p>
+                <span>FOUNDER</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="testimonial-section d-flex align-items-center">
+      <div class="container text-center text-white">
+        <!-- Başlıq Hissəsi -->
+        <h2 class="section-title text-uppercase">Testimonials</h2>
+        <div class="title-line"></div>
+
+        <!-- Bootstrap Carousel Slayder -->
+        <div
+          id="testimonialCarousel"
+          class="carousel slide mt-5"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- 1-ci Slayd (Aktiv) -->
+            <div class="carousel-item active">
+              <p class="testimonial-text mx-auto">
+                "The Department of Computer Science and Engineering, Islamic
+                University of Technology(IUT), is one of the..."
+              </p>
+              <div class="author-info mt-4">
+                <h5 class="author-name mb-1">Mohoshin Ahmed</h5>
+                <span class="author-role text-uppercase text-secondary"
+                  >ROX THEME</span
+                >
+              </div>
+            </div>
+
+            <!-- 2-ci Slayd -->
+            <div class="carousel-item">
+              <p class="testimonial-text mx-auto">
+                "We strive to provide the best quality and user experience
+                across all of our templates and custom developments."
+              </p>
+              <div class="author-info mt-4">
+                <h5 class="author-name mb-1">John Doe</h5>
+                <span class="author-role text-uppercase text-secondary"
+                  >Lead Developer</span
+                >
+              </div>
+            </div>
+
+            <!-- 3-cü Slayd -->
+            <div class="carousel-item">
+              <p class="testimonial-text mx-auto">
+                "An incredible framework to work with. Highly customizable,
+                responsive, and perfect for modern web solutions."
+              </p>
+              <div class="author-info mt-4">
+                <h5 class="author-name mb-1">Jane Smith</h5>
+                <span class="author-role text-uppercase text-secondary"
+                  >UI/UX Designer</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Slayderin Aşağıdakı İndikator Xətləri -->
+          <div class="carousel-indicators position-relative mt-5">
+            <button
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="parentiki">
+        <div class="divone"><img src="./image/add-1.png" alt="logo" /></div>
+        <div class="divtwo"><img src="./image/add-2.png" alt="logo" /></div>
+        <div class="divthere"><img src="./image/add-3.png" alt="logo" /></div>
+        <div class="divfour"><img src="./image/add-4.png" alt="logo" /></div>
+      </div>
+    </div>
+
+    <footer>
+      <span>Copyright © 2015 Your Company</span>
+      <div class="iconDiv">
+        <i
+          style="width: 35px; height: 35px; background-color: blue"
+          class="fa-brands fa-square-facebook"
+        ></i>
+        <i
+          style="width: 35px; height: 35px; background-color: dodgerblue"
+          class="fa-brands fa-square-twitter"
+        ></i>
+        <i
+          style="width: 35px; height: 35px; background-color: red"
+          class="fa-brands fa-square-google-plus"
+        ></i>
+        <i
+          style="width: 35px; height: 35px; background-color: darkorange"
+          class="fa-solid fa-rss"
+        ></i>
+      </div>
+      <span>Theme by <a href="themewagon.com."></a> All Rights Reserved</span>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
